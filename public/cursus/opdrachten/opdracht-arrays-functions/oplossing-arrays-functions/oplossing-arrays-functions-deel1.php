@@ -27,7 +27,7 @@
 	
 		<p>Aantal dieren: <?= $aantalDieren ?></p>
 
-		<?php if ( $dierGevonden ): ?>
+		<?php if ( $dieren[$dierGevonden]== $teZoekenDier ): ?>
 			
 			<p>Het dier "<?= $teZoekenDier ?>" komt voor in de array $dieren</p>
 
