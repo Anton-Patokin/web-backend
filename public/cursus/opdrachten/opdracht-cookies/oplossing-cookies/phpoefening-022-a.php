@@ -20,7 +20,7 @@
 			if ( $_POST[ 'username' ] == $userData[ 0 ] &&
 					$_POST[ 'password' ] == $userData[ 1 ] )
 			{
-				setcookie( 'authenticated', true, time() + 3600 );
+				setcookie( 'authenticated', true, time() + 360 );
 				header( 'location: phpoefening-022-a.php' );
 			}
 			else
